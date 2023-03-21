@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sample-styling.css">
+    <title>portfolio-sample2</title>
+</head>
+<body>
+
+
+
+    <!-- HEADER, this includes the image in the landing page-->
+
+    <header>
+        <div class="container-img">
+            <img src="./abstract.png" alt="Shapes" id="shapes">
+            <div class="line-top line"></div>
+            <div class="line-bottom line"></div>
+            <h2 id="name">CJ AMIEL L. LEBIOS</h2>
+            <h3 id="role">UI/UX Developer</h3>
+        </div>
+    </header>         
+    
+
+    <!-- MAIN, tackles the welcome text -->
+
+
+    <main>
+      <p id="welcome-txt">
+        Welcome! It’s an honor to have someone visit my 
+        website, by clicking on the menu tab you will start to learn about me.
+      </p>
+    </main>
+
+
+    <!-- FOOTER, navigation-->
+    <footer>
+        
+            <h1 class="container-menu">
+                <h1 id="menu" onclick="menuFunc()">MENU</h1>
+            </h1>
+
+            <nav>
+            <section class="navboxes" id="boxes-toggled">
+                <div class="box1 nav-box"></div>
+                <span class="work-txt nav-texts">WORK</span>
+                <div class="box2 nav-box"></div>
+                <span class="personal-txt nav-texts">PERSONAL</span>
+
+                <div class="close-toggle" onclick="closeFunc()" id="close-toggle">
+                    <div class="line1 close-lines"></div>
+                    <div class="line2 close-lines"></div=>
+                </div>
+            </section>
+        </nav>
+    </footer>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
